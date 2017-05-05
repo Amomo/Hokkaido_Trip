@@ -44,7 +44,7 @@
     float: left;
     position: relative;
     width: 46%;
-    padding: 20px;
+    padding: 15px;
     border: 1px solid #d4d4d4;
     border-radius: 2px;
     -webkit-box-shadow: 0 1px 6px rgba(0,0,0,0.175);
@@ -145,18 +145,18 @@
 
 @media(max-width:2000px) {
     ul.timeline:before {
-        left: 40px;
+        left: 20px;
     }
 
     ul.timeline > li > .timeline-panel {
-        width: calc(100% - 90px);
-        width: -moz-calc(100% - 90px);
-        width: -webkit-calc(100% - 90px);
+        width: calc(100% - 70px);
+        width: -moz-calc(100% - 70px);
+        width: -webkit-calc(100% - 70px);
     }
 
     ul.timeline > li > .timeline-badge {
         top: 16px;
-        left: 15px;
+        left: -5px;
         margin-left: 0;
     }
 
@@ -177,4 +177,9 @@
         border-right-width: 14px;
         border-left-width: 0;
     }
+}
+
+.col-lg-12 {
+    padding-right: 5px;
+    padding-left: 5px;
 }
