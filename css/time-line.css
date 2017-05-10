@@ -183,3 +183,7 @@
     padding-right: 5px;
     padding-left: 5px;
 }
+
+.navbar {
+  min-height: 40px;
+}
